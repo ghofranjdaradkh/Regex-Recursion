@@ -1,0 +1,40 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "function pow(x, n) {\n    // Write you logic here.\n    if (n==0)return 1\n    else\n    return x*pow(x,n-1);\n}\npow(4,2)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m16\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function division(number, dividedBy) {\n    // Write you logic here.\n\n    if (number<dividedBy || dividedBy==0 || number==0) return 0;\n    \n    else {\n      \n        return 1 + division(number - dividedBy, dividedBy);\n       \n    }\n} \ndivision(20,3)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m6\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
