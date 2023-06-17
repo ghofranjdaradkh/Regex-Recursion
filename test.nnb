@@ -3,7 +3,7 @@
         {
             "language": "typescript",
             "source": [
-                "function pow(x, n) {\n    // Write you logic here.\n    if (n==0)return 1\n    else\n    return x*pow(x,n-1);\n}\npow(4,2)"
+                "function pow(x, n) {\n    // Write you logic here.\n    if (n==0)return 1\n    else\n    return x*pow(x,n-1);\n}\npow(3,3)"
             ],
             "outputs": [
                 {
@@ -11,7 +11,7 @@
                         {
                             "mime": "text/plain",
                             "value": [
-                                "\u001b[33m16\u001b[39m"
+                                "\u001b[33m27\u001b[39m"
                             ]
                         }
                     ]
