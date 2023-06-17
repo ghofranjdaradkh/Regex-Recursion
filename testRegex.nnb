@@ -1,0 +1,65 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "let s=\"ghofran JamAL DARADKHA\"\nfunction capitalA(s){\n    // Add your logic.\n    const regex1 = /[a-zA-Z]*A$/;\n\n  return regex1.test(s);\n}\ncapitalA(s)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33mtrue\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let email =\"G@g.mail.io\"\nfunction ioEmail(email){\n    // Add your logic.\n    let regex2=/^([a-zA-Z0-9\\.-_]+)@([a-zA-Z0-9-]+).io$/\n    return regex2.test(email)\n}\nioEmail(email)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33mfalse\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let text=\"\"\nfunction imagesSearcher(text){\n        let arr = [];\n      let regex3 = /([\\w-]+\\.(jpg|jpeg|png))/g;\n    \n   arr=text.match(regex3) ||[]\n    \n      return arr;\n    }\nimagesSearcher(text)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": []
+        }
+    ]
+}
