@@ -21,7 +21,7 @@
         {
             "language": "typescript",
             "source": [
-                "function division(number, dividedBy) {\n    // Write you logic here.\n\n    if (number<dividedBy || dividedBy==0 || number==0) return 0;\n    \n    else {\n      \n        return 1 + division(number - dividedBy, dividedBy);\n       \n    }\n} \ndivision(20,3)"
+                "function division(number, dividedBy) {\n    // Write you logic here.\n\n    if (number<dividedBy || dividedBy==0 || number==0) return 0;\n    \n    else {\n      \n        return 1 + division(number - dividedBy, dividedBy);\n       \n    }\n} \ndivision(1800,3)"
             ],
             "outputs": [
                 {
@@ -29,7 +29,43 @@
                         {
                             "mime": "text/plain",
                             "value": [
-                                "\u001b[33m6\u001b[39m"
+                                "\u001b[33m600\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function fibonacci(n) {\n    // Write you logic here.\n    if (n<=1) return n\n    else \n    return fibonacci(n-1)+fibonacci(n-2) ;\n}fibonacci(5)"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33m5\u001b[39m"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                ""
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "\u001b[33mtrue\u001b[39m"
                             ]
                         }
                     ]
